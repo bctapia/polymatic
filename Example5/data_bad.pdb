@@ -1,0 +1,146 @@
+TITLE     PIM-1 monomers, good alignment
+REMARK     Generated using Polymatic
+CRYST1   50.000   50.000   50.000  90.00  90.00  90.00 P 1           1
+MODEL     1
+ATOM      1 CA0  MOL     1      21.942   8.289   4.821  1.00  0.00
+ATOM      2 CA0  MOL     1      22.526   8.389   3.568  1.00  0.00
+ATOM      3 CH0  MOL     1      23.372   9.641   3.436  1.00  0.00
+ATOM      4 CH2  MOL     1      22.883  10.439   4.668  1.00  0.00
+ATOM      5 CH3  MOL     1      23.079  10.370   2.108  1.00  0.00
+ATOM      6 CH0  MOL     1      22.311   9.453   5.711  1.00  0.00
+ATOM      7 CH2  MOL     1      23.256   9.019   6.854  1.00  0.00
+ATOM      8 CH0  MOL     1      22.939   9.855   8.118  1.00  0.00
+ATOM      9 CA0  MOL     1      21.513  10.276   7.821  1.00  0.00
+ATOM     10 CA0  MOL     1      21.171  10.057   6.496  1.00  0.00
+ATOM     11 CA1  MOL     1      19.913  10.384   6.044  1.00  0.00
+ATOM     12 CS0  MOL     1      18.968  10.937   6.900  1.00  0.00
+ATOM     13 CS0  MOL     1      19.316  11.167   8.248  1.00  0.00
+ATOM     14 CA1  MOL     1      20.595  10.832   8.683  1.00  0.00
+ATOM     15 OA0  MOL     1      18.424  11.717   9.148  1.00  0.00
+ATOM     16 OA0  MOL     1      17.715  11.246   6.407  1.00  0.00
+ATOM     17 CH3  MOL     1      23.012   9.012   9.409  1.00  0.00
+ATOM     18 CH3  MOL     1      23.808  11.123   8.234  1.00  0.00
+ATOM     19 CS0  MOL     1      16.808  11.798   7.315  1.00  0.00
+ATOM     20 CS0  MOL     1      17.154  12.028   8.655  1.00  0.00
+ATOM     21 CA0  MOL     1      16.210  12.587   9.538  1.00  0.00
+ATOM     22 CL0  MOL     1      16.523  12.832  10.889  1.00  0.00
+ATOM     23 NL0  MOL     1      16.781  13.032  12.000  1.00  0.00
+ATOM     24 LOA0 MOL     1      21.311   5.350   1.935  1.00  0.00
+ATOM     25 CS0  MOL     1      20.895   6.215   4.191  1.00  0.00
+ATOM     26 LOA0 MOL     1      20.074   5.157   4.544  1.00  0.00
+ATOM     27 CA1  MOL     1      21.136   7.216   5.125  1.00  0.00
+ATOM     28 LCS0 MOL     1      14.939  12.904   9.064  1.00  0.00
+ATOM     29 LCS0 MOL     1      14.598  12.677   7.750  1.00  0.00
+ATOM     30 CA0  MOL     1      15.516  12.126   6.858  1.00  0.00
+ATOM     31 CL0  MOL     1      15.133  11.908   5.521  1.00  0.00
+ATOM     32 NL0  MOL     1      14.818  11.728   4.421  1.00  0.00
+ATOM     33 CS0  MOL     1      21.499   6.310   2.915  1.00  0.00
+ATOM     34 CA1  MOL     1      22.310   7.404   2.632  1.00  0.00
+ATOM     35 CH3  MOL     1      24.858   9.238   3.525  1.00  0.00
+ATOM     36 CA0  MOL     2       8.496  13.443   8.957  1.00  0.00
+ATOM     37 CA0  MOL     2       8.752  14.801   9.055  1.00  0.00
+ATOM     38 CH0  MOL     2       7.482  15.605   9.254  1.00  0.00
+ATOM     39 CH2  MOL     2       6.420  14.545   8.877  1.00  0.00
+ATOM     40 CH3  MOL     2       7.449  16.830   8.317  1.00  0.00
+ATOM     41 CH0  MOL     2       7.021  13.136   9.080  1.00  0.00
+ATOM     42 CH2  MOL     2       6.695  12.422  10.411  1.00  0.00
+ATOM     43 CH0  MOL     2       5.542  11.417  10.178  1.00  0.00
+ATOM     44 CA0  MOL     2       5.669  11.191   8.684  1.00  0.00
+ATOM     45 CA0  MOL     2       6.479  12.140   8.082  1.00  0.00
+ATOM     46 CA1  MOL     2       6.707  12.094   6.725  1.00  0.00
+ATOM     47 CS0  MOL     2       6.131  11.104   5.938  1.00  0.00
+ATOM     48 CS0  MOL     2       5.299  10.142   6.548  1.00  0.00
+ATOM     49 CA1  MOL     2       5.081  10.208   7.920  1.00  0.00
+ATOM     50 OA0  MOL     2       4.694   9.134   5.821  1.00  0.00
+ATOM     51 OA0  MOL     2       6.388  11.091   4.580  1.00  0.00
+ATOM     52 CH3  MOL     2       4.151  12.019  10.465  1.00  0.00
+ATOM     53 CH3  MOL     2       5.748  10.101  10.957  1.00  0.00
+ATOM     54 CS0  MOL     2       5.781  10.072   3.842  1.00  0.00
+ATOM     55 CS0  MOL     2       4.953   9.116   4.448  1.00  0.00
+ATOM     56 CA0  MOL     2       4.361   8.104   3.667  1.00  0.00
+ATOM     57 CL0  MOL     2       3.525   7.128   4.242  1.00  0.00
+ATOM     58 NL0  MOL     2       2.838   6.325   4.715  1.00  0.00
+ATOM     59 LOA0 MOL     2      12.393  14.896   8.721  1.00  0.00
+ATOM     60 CS0  MOL     2      10.845  12.996   8.684  1.00  0.00
+ATOM     61 LOA0 MOL     2      11.851  12.064   8.494  1.00  0.00
+ATOM     62 CA1  MOL     2       9.530  12.554   8.772  1.00  0.00
+ATOM     63 LCS0 MOL     2       4.609   8.069   2.297  1.00  0.00
+ATOM     64 LCS0 MOL     2       5.422   9.007   1.702  1.00  0.00
+ATOM     65 CA0  MOL     2       6.019  10.017   2.454  1.00  0.00
+ATOM     66 CL0  MOL     2       6.844  10.959   1.812  1.00  0.00
+ATOM     67 NL0  MOL     2       7.524  11.734   1.284  1.00  0.00
+ATOM     68 CS0  MOL     2      11.110  14.381   8.794  1.00  0.00
+ATOM     69 CA1  MOL     2      10.047  15.259   8.980  1.00  0.00
+ATOM     70 CH3  MOL     2       7.406  16.041  10.732  1.00  0.00
+CONECT    1    2    6   27
+CONECT    2    1    3   34
+CONECT    3    2    4    5   35
+CONECT    4    3    6
+CONECT    5    3
+CONECT    6    1    4    7   10
+CONECT    7    6    8
+CONECT    8    7    9   17   18
+CONECT    9    8   10   14
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   16
+CONECT   13   12   14   15
+CONECT   14    9   13
+CONECT   15   13   20
+CONECT   16   12   19
+CONECT   17    8
+CONECT   18    8
+CONECT   19   16   20   30
+CONECT   20   15   19   21
+CONECT   21   20   22   28
+CONECT   22   21   23
+CONECT   23   22
+CONECT   24   33
+CONECT   25   26   27   33
+CONECT   26   25
+CONECT   27   25    1
+CONECT   28   29   21
+CONECT   29   28   30
+CONECT   30   29   31   19
+CONECT   31   30   32
+CONECT   32   31
+CONECT   33   24   34   25
+CONECT   34    2   33
+CONECT   35    3
+CONECT   36   37   41   62
+CONECT   37   36   38   69
+CONECT   38   37   39   40   70
+CONECT   39   38   41
+CONECT   40   38
+CONECT   41   36   39   42   45
+CONECT   42   41   43
+CONECT   43   42   44   52   53
+CONECT   44   43   45   49
+CONECT   45   41   44   46
+CONECT   46   45   47
+CONECT   47   46   48   51
+CONECT   48   47   49   50
+CONECT   49   44   48
+CONECT   50   48   55
+CONECT   51   47   54
+CONECT   52   43
+CONECT   53   43
+CONECT   54   51   55   65
+CONECT   55   50   54   56
+CONECT   56   55   57   63
+CONECT   57   56   58
+CONECT   58   57
+CONECT   59   68
+CONECT   60   61   62   68
+CONECT   61   60
+CONECT   62   60   36
+CONECT   63   64   56
+CONECT   64   63   65
+CONECT   65   64   66   54
+CONECT   66   65   67
+CONECT   67   66
+CONECT   68   59   69   60
+CONECT   69   37   68
+CONECT   70   38
+TER
+ENDMDL

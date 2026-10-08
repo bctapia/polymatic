@@ -1,0 +1,14 @@
+PSF
+
+       3 !TITLE
+ REMARKS Water molecule
+ REMARKS Generated with Polymatic
+ REMARKS To be used with coordinates file in VMD
+
+       3 !NATOM
+       1 MOL  1    MOL  C    6      0.399100        1.0080           0
+       2 MOL  1    MOL  C    5     -0.798200       15.9994           0
+       3 MOL  1    MOL  C    6      0.399100        1.0080           0
+
+       2 !NBOND: bonds
+       1       2       3       2

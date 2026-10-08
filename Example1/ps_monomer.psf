@@ -1,0 +1,30 @@
+PSF
+
+       3 !TITLE
+ REMARKS Polystyrene monomer
+ REMARKS Generated with Polymatic
+ REMARKS To be used with coordinates file in VMD
+
+      16 !NATOM
+       1 MOL  1    MOL  C    1      0.000000       12.0112           0
+       2 MOL  1    MOL  C    1      0.000000       12.0112           0
+       3 MOL  1    MOL  C    1      0.000000       12.0112           0
+       4 MOL  1    MOL  C    1      0.000000       12.0112           0
+       5 MOL  1    MOL  C    1      0.000000       12.0112           0
+       6 MOL  1    MOL  C    1      0.000000       12.0112           0
+       7 MOL  1    MOL  C    2      0.000000       12.0112           0
+       8 MOL  1    MOL  C    3      0.000000       12.0112           0
+       9 MOL  1    MOL  C    4      0.000000        1.0080           0
+      10 MOL  1    MOL  C    4      0.000000        1.0080           0
+      11 MOL  1    MOL  C    4      0.000000        1.0080           0
+      12 MOL  1    MOL  C    4      0.000000        1.0080           0
+      13 MOL  1    MOL  C    4      0.000000        1.0080           0
+      14 MOL  1    MOL  C    4      0.000000        1.0080           0
+      15 MOL  1    MOL  C    4      0.000000        1.0080           0
+      16 MOL  1    MOL  C    4      0.000000        1.0080           0
+
+      16 !NBOND: bonds
+       1       2       3       4       4       5       5       6
+       2       3       1       6       7       3       7       8
+       1       9       2      10       4      11       5      12
+       6      13       7      14       8      15       8      16

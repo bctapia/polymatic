@@ -1,0 +1,27 @@
+link LCS0,CS0 LOA0,OA0
+charge +0.3 -0.3
+cutoff 6.0
+bond 3 10
+align 1,7 5,12 >135
+align 4,1,3,6 9,5,8,11 <40,>140,||
+connect 7
+ 1 3,4
+ 2 5
+ 3 6
+ 4 7
+ 5 8,9
+ 8 10,11
+ 9 12
+types 12
+ 1 LCS0
+ 2 LOA0
+ 3 LCS0
+ 4 CA0
+ 5 CS0
+ 6 CA0
+ 7 CS0
+ 8 CS0
+ 9 CA1
+ 10 LOA0
+ 11 CA1
+ 12 CA0
