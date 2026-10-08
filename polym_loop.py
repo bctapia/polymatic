@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 ################################################################################
 #
@@ -115,7 +115,7 @@ def polym_loop():
         # Molecular dynamics
         if (bonds % bonds_cyc == 0):
             setup_md(0)
-            if ((bonds/bonds_cyc) % md_cyc == 0):
+            if ((bonds//bonds_cyc) % md_cyc == 0):
                 md(2)
             else:
                 md(1)
@@ -140,7 +140,7 @@ def polym_step():
 
         # Bond made
         if (code == 0):
-            print "  Attempts: %d" % attempts
+            print("  Attempts: %d" % attempts)
             if (not os.path.isfile('data.lmps')):
                 err_exit("Polymerization step script did not complete properly.")
             return 0
@@ -150,7 +150,7 @@ def polym_step():
 
             # Stop if maximum attempts reached
             if (attempts > md_max):
-                print "  No pair was found within the maximum number of attempts."
+                print("  No pair was found within the maximum number of attempts.")
                 bonds -= 1
                 os.chdir('..')
                 if (keep == 0):
@@ -168,7 +168,7 @@ def polym_step():
             err_exit("Polymerization step script did not complete properly.")
 
 def polym_init():
-    print "Initialization:"
+    print("Initialization:")
     if (script_init != 0):
         cmd = 'perl scripts/%s -i data.lmps -t types.txt -s scripts/%s -o temp.lmps' \
             % (script_init, input_polym)
@@ -180,7 +180,7 @@ def polym_init():
         err_exit("Polymerization initialization script did not complete properly.")
 
 def polym_final():
-    print "Finalization:"
+    print("Finalization:")
     if (script_final != 0):
         cmd = 'perl scripts/%s -i temp.lmps -t types.txt -s scripts/%s -o final.lmps' \
             % (script_final, input_polym)
@@ -250,7 +250,7 @@ def md(num):
 def setup_step():
 
     # Directory
-    print "Step %d:" % bonds
+    print("Step %d:" % bonds)
     directory = 'step_' + '{0:03d}'.format(bonds)
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -284,22 +284,22 @@ def setup_md(num):
         shutil.copy('../init.lmps', 'data.lmps')
 
 def print_header():
-    print "Polymatic Simulated Polymerization\n"
-    print "Parameters\n----------"
-    print "Initial bonds:             %d" % bonds
-    print "Total bonds:               %d" % bonds_tot
-    print "Bonds per cycle:           %d" % bonds_cyc
-    print "Frequency of MD type 2:    %d" % md_cyc
-    print "Maximum bond attempts:     %d\n" % md_max
-    print "Polymerization Loop\n-------------------"
+    print("Polymatic Simulated Polymerization\n")
+    print("Parameters\n----------")
+    print("Initial bonds:             %d" % bonds)
+    print("Total bonds:               %d" % bonds_tot)
+    print("Bonds per cycle:           %d" % bonds_cyc)
+    print("Frequency of MD type 2:    %d" % md_cyc)
+    print("Maximum bond attempts:     %d\n" % md_max)
+    print("Polymerization Loop\n-------------------")
 
 def print_footer():
-    print "\nSummary\n-------"
-    print "Bonds made:                %d" % bonds
-    print "Completion percentage:     %.f%%" % (bonds*100.0/bonds_tot)
+    print("\nSummary\n-------")
+    print("Bonds made:                %d" % bonds)
+    print("Completion percentage:     %.f%%" % (bonds*100.0/bonds_tot))
 
 def err_exit(error):
-    print "Error: %s" % error
+    print("Error: %s" % error)
     sys.exit(1)
 
 if __name__ == '__main__':
